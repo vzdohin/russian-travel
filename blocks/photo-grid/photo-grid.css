@@ -1,0 +1,13 @@
+.photo-grid {
+  max-width: 1184px;
+  max-height: 671px;
+  margin: 92px auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  /* repeat(auto-fit, minmax(288px, 1fr)) */
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  /* padding: 92px; */
+}

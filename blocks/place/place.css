@@ -1,0 +1,16 @@
+.place {
+  width: 984px;
+  height: 660px;
+  display: grid;
+  grid-template-areas: 
+  "place__title place__web"
+  "place__img place__paragraph"
+  "place__img place__paragraph";
+  row-gap: 40px;
+  column-gap: 48px;
+  margin-top: 80px;
+}
+
+.place:nth-child(1) {
+  margin-top: 0;
+}
