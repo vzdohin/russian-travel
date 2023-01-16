@@ -1,0 +1,4 @@
+.menu__lang-link_status_active {
+  text-decoration-line: underline;
+  cursor: default;
+}

@@ -4,7 +4,8 @@
   min-height: 740px;
   background-size: cover;
   position: relative;
-  
+  background-size: contain;
+/* background-repeat: no-repeat; */
 }
 
 .cover::before {
@@ -22,4 +23,39 @@
   opacity: .8;
   transition: .5s;
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    
+    min-height: 640px;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+       
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    width: 100%;
+    min-height: 480px;
+    margin: 90px 0 88px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    min-height: 200px;
+    margin: 66px 0 64px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

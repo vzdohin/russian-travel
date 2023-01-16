@@ -5,3 +5,19 @@
 .footer__link-menu:last-of-type {
   margin: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__link-menu {
+    
+    margin: 32px 0 0 0;
+    
+
+  }
+  .footer__link-menu:nth-child(1) {
+    margin: 0;
+  }
+  .footer__link-menu:last-of-type {
+    margin: 32px 0 0 0;
+  }
+  
+}
