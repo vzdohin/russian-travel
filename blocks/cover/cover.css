@@ -4,8 +4,6 @@
   min-height: 740px;
   background-size: cover;
   position: relative;
-  background-size: contain;
-/* background-repeat: no-repeat; */
 }
 
 .cover::before {
