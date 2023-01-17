@@ -11,10 +11,10 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./image/header-logo.svg" alt="контур России">
-      <nav class="menu">
-        <a href="#" class="menu__lang-link menu__lang-link_status_active">Ru</a>
-        <a href="#" class="menu__lang-link">En</a>
-      </nav>
+      <ul class="menu">
+        <li class="menu__item"><a href="#" class="menu__lang-link menu__lang-link_status_active">Ru</a></li>
+        <li class="menu__item"><a href="#" class="menu__lang-link">En</a></li>
+      </ul>
     </header>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
@@ -59,10 +59,10 @@
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__web">
-          <span class="place__web place__web_url">URL</span>
-          <a class=" place__web place__web_link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <span class="place__url">url</span>
+          <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
-        <img class="place__img" src="./image/place-kosa.jpg" alt="">
+        <img class="place__img" src="./image/place-kosa.jpg" alt="фотграфия сухих корней в воде">
         <div class="place__paragraphs">
           <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть 
               два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью 
@@ -76,10 +76,10 @@
       <article class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__web">
-          <span class="place__web place__web_url">URL</span>
-          <a class="place__web place__web_link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+          <span class="place__url">url</span>
+          <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
         </div>
-        <img class="place__img" src="./image/place-kolsky.jpg" alt="">
+        <img class="place__img" src="./image/place-kolsky.jpg" alt="фото каменной горы покрытой снегом">
         <div class="place__paragraphs">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. 
               Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся 
@@ -94,10 +94,10 @@
       <article class="place">
         <h2 class="place__title">Алтай</h2>
           <div class="place__web">
-            <span class="place__web place__web_url">URL</span>
-            <a class="place__web place__web_link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+            <span class="place__url">url</span>
+            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
           </div>
-          <img class="place__img" src="./image/place-altai.jpg" alt="">
+          <img class="place__img" src="./image/place-altai.jpg" alt="фото ноутбука на фоне зеленого леса">
           <div class="place__paragraphs">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. 
@@ -110,10 +110,10 @@
       <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__web">
-          <span class="place__web place__web_url">URL</span>
-          <a class="place__web place__web_link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          <span class="place__url">url</span>
+          <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
-        <img class="place__img" src="./image/place-winter-baikal.jpg" alt="">
+        <img class="place__img" src="./image/place-winter-baikal.jpg" alt="макросъемка треснутого льда">
         <div class="place__paragraphs">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -125,10 +125,10 @@
       <article class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__web">
-          <span class="place__web place__web_url">URL</span>
-          <a class="place__web place__web_link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+          <span class="place__url">url</span>
+          <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
-        <img class="place__img" src="./image/place-karelia.jpg" alt="">
+        <img class="place__img" src="./image/place-karelia.jpg" alt="фото реки окруженной зеленым лесом">
         <div class="place__paragraphs">
           <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу 
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — 
@@ -139,28 +139,30 @@
         </div>
       </article>
     </section>
-    <section class="cover">
+    <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>    
-    </section>
+    </a>
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link-menu">
-          <a class="footer__link"  href="https://yandex.ru/maps">Карты</a>
-        </li>
-        <li class="footer__link-menu">
-          <a class="footer__link"  href="https://yandex.ru/pogoda">Погода</a>
-        </li>
-        <li class="footer__link-menu">
-          <a  class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        </li>
-        <li class="footer__link-menu">
-          <a  class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        </li>
-        <li class="footer__link-menu">
-          <a  class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-        </li>
-      </ul>
+      <nav class="footer__menu">
+        <ul class="footer__links">
+          <li class="footer__link-menu">
+            <a class="footer__link"  href="https://yandex.ru/maps" target="_blank">Карты</a>
+          </li>
+          <li class="footer__link-menu">
+            <a class="footer__link"  href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+          </li>
+          <li class="footer__link-menu">
+            <a  class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+          </li>
+          <li class="footer__link-menu">
+            <a  class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+          </li>
+          <li class="footer__link-menu">
+            <a  class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&#169; 2023 Александр Охин</p>
 
     </footer>

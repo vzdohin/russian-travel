@@ -1,0 +1,10 @@
+.menu__item {
+  margin-right: 20px;
+  align-items: center;
+  padding-top: 18px;
+
+}
+
+.menu__item:last-of-type {
+  margin-right: 0;
+}
