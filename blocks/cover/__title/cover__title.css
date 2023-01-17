@@ -13,8 +13,8 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__title {
-    margin-left: 232px;
-    margin-right: 232px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 195px;
        
   }
@@ -23,8 +23,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__title {
-    margin-left: 104px;
-    margin-right: 104px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 115px;
   }
   
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__title {
-    margin: 0 16px 16px 30px;
+    margin: 0 auto 16px auto;
     padding-top: 33px;
     max-width: 255px;
     font-size: 32px;

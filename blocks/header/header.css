@@ -12,7 +12,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
     max-width: 928px;
-    margin: 28px 48px 48px 48px;
+    margin: 28px auto 48px auto;
   }
   
 }
@@ -20,7 +20,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
     max-width: 720px;
-    margin: 28px 24px 48px 24px;
+    margin: 28px auto 48px auto;
   }
   
 }
@@ -29,7 +29,7 @@
   .header {
     max-width: 288px;
     min-height: 42px;
-    margin: 16px 16px 48px 16px;
+    margin: 16px auto 48px auto;
   }
   
 }
