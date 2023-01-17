@@ -26,5 +26,6 @@
   .places {
     max-width: 100%;
     margin: 0;
+    align-items: center;
   }
 }
