@@ -1,11 +1,11 @@
 .menu__lang-link {
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 1.17;
-color: #FFFFFF;
-text-decoration: none;
-margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: auto;
 }
 
 .menu__lang-link:hover {

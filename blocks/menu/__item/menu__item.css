@@ -9,8 +9,9 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .menu__item {
-    padding-top: 13px;
+    margin-top: 12px;
   }
+  
 }

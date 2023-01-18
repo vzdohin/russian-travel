@@ -20,5 +20,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__url {
     line-height: 1;
+    margin-bottom: 12px;
   }
 }
